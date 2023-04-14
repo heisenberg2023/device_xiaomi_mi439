@@ -1,0 +1,62 @@
+[
+    {
+       "remote"      : "github",
+       "repository"  : "MI439-CLO/proprietary_vendor_xiaomi_mi439",
+       "target_path" : "vendor/xiaomi/mi439",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "MI439-CLO/android_kernel_xiaomi_sdm439",
+       "target_path" : "kernel/xiaomi/sdm439",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "MI439-CLO/android_hardware_mi439",
+       "target_path" : "hardware/mi439",
+       "branch"      : "13"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "MI439-CLO/android_device_qcom_common",
+       "target_path" : "device/qcom/common",
+       "branch"      : "13"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "AOSPA/android_device_qcom_qssi",
+       "target_path" : "device/qcom/qssi",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "AOSPA/android_device_qcom_vendor-common",
+       "target_path" : "device/qcom/vendor-common",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "ThankYouMario/proprietary_vendor_qcom_common",
+       "target_path" : "vendor/qcom/common",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "AOSPA/android_packages_resources_devicesettings",
+       "target_path" : "packages/resources/devicesettings",
+       "branch"      : "topaz"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "PixelExperience/vendor_qcom_opensource_core-utils",
+       "target_path" : "vendor/qcom/opensource/core-utils",
+       "branch"      : "thirteen"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "MI439-CLO/vendor_qcom_opensource_commonsys-intf_bluetooth",
+       "target_path" : "vendor/qcom/opensource/commonsys-intf/bluetooth",
+       "branch"      : "thirteen"
+    }
+]
