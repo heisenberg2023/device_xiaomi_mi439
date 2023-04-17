@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mi439/device.mk)
 
 # Inherit from common AOSPA configuration
-$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
-PRODUCT_NAME := aospa_mi439
+PRODUCT_NAME := droidx_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
@@ -30,6 +30,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
+
+DROIDX_BUILDTYPE := OFFICIAL 
+#DROIDX_GAPPS := true 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
