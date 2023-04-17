@@ -9,6 +9,9 @@
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-droidx \
 
+# Apn
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # Userspace Reboot
 $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
