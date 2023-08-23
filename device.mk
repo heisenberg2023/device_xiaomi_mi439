@@ -7,6 +7,10 @@
 # Cryptfshw
 TARGET_EXCLUDE_CRYPTFSHW := true
 
+#superiorOS overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-superior \
+
 # Gatekeeper
 TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 
