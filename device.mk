@@ -7,6 +7,10 @@
 # Cryptfshw
 TARGET_EXCLUDE_CRYPTFSHW := true
 
+#blazeOS overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-blaze \
+
 # Gatekeeper
 TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 
